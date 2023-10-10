@@ -70,6 +70,54 @@
             <p>Jl. Badrawati, Kw. Candi Borobudur, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah</p>
             <p>Lihat di Google Maps: <a href="https://maps.app.goo.gl/TjbMLvmBJLVwVADx9" target="_blank">Klik disini</a></p>
         </section>
+
+         <section>
+            <h2><mark>Informasi Jadwal Kunjungan</mark></h2>
+            <table border="2" cellpadding="5" cellspacing="0" style="width: 50%;">
+                <thead>
+                    <tr>
+                        <th style="width: 18%; background-color: #d8a859;">Hari</th>
+                        <th style="width: 20%; background-color: #d8a859;">Jam Buka</th>
+                        <th style="width: 20%; background-color: #d8a859;">Jam Tutup</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin - Jumat</td>
+                        <td>08:00</td>
+                        <td>17:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sabtu - Minggu</td>
+                        <td>07:00</td>
+                        <td>18:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+
+        <section>
+            <h2><mark>Pesan Tiket</mark></h2>
+            <form action="/action_page.php">
+                <label for="Nama Lengkap">Nama Lengkap:</label><br>
+                <input type="text" id="Nama Lengkap" name="Nama Lengkap" value=""><br>
+                <label for="Email">Email:</label><br>
+                <input type="text" id="Email" name="Email" value=""><br>
+                <label for="Jumlah Tiket">Jumlah Tiket:</label><br>
+                <input type="number" id="Jumlah Tiket" name="Jumlah Tiket" min="1" required><br>
+                <label for="Tanggal Kunjungan">Tanggal Kunjungan:</label><br>
+                <input type="date" id="Tanggal Kunjungan" name="Tanggal Kunjungan" required><br>
+                <label for="Waktu Kunjungan">Waktu Kunjungan:</label><br>
+                <select id="Waktu Kunjungan" name="Waktu Kunjungan" required>
+                <option value="Pagi">Pagi</option>
+                <option value="Siang">Siang</option>
+                <option value="Sore">Sore</option>
+                </select><br><br>
+                <input type="submit" value="Submit">
+                </form>
+
+        
     </main>
 </body>
 </html>
